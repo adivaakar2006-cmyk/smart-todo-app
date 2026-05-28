@@ -1,0 +1,114 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.75rem;
+  transition: var(--transition);
+}
+
+.task-item:hover {
+  transform: translateX(4px);
+  background: var(--surface-hover);
+}
+
+.task-item.completed {
+  opacity: 0.7;
+}
+
+.task-item.completed .task-title {
+  text-decoration: line-through;
+  color: var(--text-secondary);
+}
+
+.task-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.task-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  word-break: break-word;
+}
+
+.edit-form {
+  width: 100%;
+}
+
+.edit-input {
+  padding: 0.25rem 0.5rem;
+}
+
+.task-meta {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.badge {
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+}
+
+.badge-work {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--cat-work);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-personal {
+  background: rgba(236, 72, 153, 0.2);
+  color: var(--cat-personal);
+  border: 1px solid rgba(236, 72, 153, 0.3);
+}
+
+.badge-shopping {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--cat-shopping);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.date-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.date-badge.overdue {
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.task-item:hover .task-actions {
+  opacity: 1;
+}
+
+.btn-icon.danger:hover {
+  color: var(--danger);
+}
+
+@media (max-width: 640px) {
+  .task-actions {
+    opacity: 1;
+  }
+}
