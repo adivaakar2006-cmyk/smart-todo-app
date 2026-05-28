@@ -141,3 +141,7 @@ To use your own Firebase project:
 - Manual reordering is only active when `Manual Order` is selected.
 - Search, filter, and sort run on the client side for the current user’s task list.
 - Toast notifications provide immediate feedback for add/update/delete actions.
+
+---
+
+Built with ❤️ by an aspiring Software Engineer.
