@@ -5,7 +5,7 @@ https://smart-todo-app-sage-nu.vercel.app/
 A full-stack, recruiter-ready React Todo application built with Firebase, featuring authentication, drag-and-drop task reordering, and a sleek dark/light mode toggle.
 
 ## Live Demo 🌐
-> **[Insert Vercel Link Here]**
+https://smart-todo-app-sage-nu.vercel.app/
 
 ## Screenshots 📸
 > *(Add your screenshots here: Homepage, Dark Mode, Drag and Drop action)*
