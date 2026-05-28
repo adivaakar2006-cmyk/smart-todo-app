@@ -55,8 +55,9 @@ This is not just another todo app. `Smart Todo` is designed to solve real produc
 
 ## 📸 Sneak Peek
 
-> ![App Screenshot Placeholder](https://via.placeholder.com/800x400.png?text=Drop+Your+App+Screenshot+Here)
-
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ---
 
 ## 🧠 Engineering Challenges & Solutions
