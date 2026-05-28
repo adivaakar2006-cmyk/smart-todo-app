@@ -146,3 +146,5 @@ To use your own Firebase project:
 ---
 
 <p align="center">Built with ❤️ by an aspiring Software Engineer.</p>
+
+<p align="center"><a href="https://github.com/adivaakar2006-cmyk/smart-todo-app/tree/main">View on GitHub</a></p>
