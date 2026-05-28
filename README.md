@@ -144,4 +144,4 @@ To use your own Firebase project:
 
 ---
 
-Built with ❤️ by an aspiring Software Engineer.
+<p align="center">Built with ❤️ by an aspiring Software Engineer.</p>
