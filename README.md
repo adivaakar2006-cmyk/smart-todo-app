@@ -10,7 +10,7 @@ https://smart-todo-app-sage-nu.vercel.app/
 
 ## Features 
 - **Authentication :** Sign up and log in securely via Firebase Auth (Email/Password & Google Auth).
-- **Backend Sync 🔗:** Tasks are stored in Cloud Firestore and synced instantly across devices.
+- **Backend Sync :** Tasks are stored in Cloud Firestore and synced instantly across devices.
 - **Drag and Drop :** Reorder your tasks seamlessly using `@hello-pangea/dnd`.
 - **Advanced Filtering :** Search tasks by name, filter by status/category, and sort by due dates.
 - **Dark & Light Mode :** Complete theme switching with glassmorphism aesthetics.
