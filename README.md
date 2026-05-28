@@ -147,6 +147,6 @@ To use your own Firebase project:
 
 <p align="center">Built with ❤️ by an aspiring Software Engineer</p>
 
-<p align="center">https://github.com/adivaakar2006-cmyk/smart-todo-app/tree/main<p>
+<p align="center">https://smart-todo-app-sage-nu.vercel.app/<p>
 
 <p align="center">https://github.com/adivaakar2006-cmyk/smart-todo-app/tree/main<p>
